@@ -7,9 +7,9 @@ section .rodata
     frmt: db "%d", 10, 0
 
 section .text
-    global _start
+    global main
 
-start:
+main:
     push ebp
     mov ebp, esp
 
